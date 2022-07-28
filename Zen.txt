@@ -12,7 +12,7 @@ Zen of Python!
 10.
 11.
 12.
-13.
+13.Beautiful is better than ugly.
 14.
 15.
 16.
