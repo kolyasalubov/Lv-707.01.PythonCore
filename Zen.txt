@@ -19,7 +19,7 @@ Zen of Python!
 17.
 18.
 19.
-20.
+20.Beautiful is better than ugly.
 21.
 22.Simple is better than complex.
 23.
