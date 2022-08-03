@@ -25,6 +25,7 @@ Zen of Python!
 23.
 25.Sparse is better than dense.
 34.Now is better than never.
+42.Flat is better than nested.
 48.Unless explicitly silenced.
 
 
