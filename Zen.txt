@@ -27,5 +27,5 @@ Zen of Python!
 33.Although that way may not be obvious at first unless you're Dutch.
 34.Now is better than never.
 42.Flat is better than nested.
-48.Unless explicitly silenced.
+56.Namespaces are one honking great idea -- let's do more of those!
 
