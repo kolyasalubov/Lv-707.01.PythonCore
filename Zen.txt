@@ -24,6 +24,7 @@ Zen of Python!
 22.Simple is better than complex.
 23.
 25.Sparse is better than dense.
+27.Special cases aren't special enough to break the rules.
 34.Now is better than never.
 48.Unless explicitly silenced.
 
