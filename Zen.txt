@@ -23,6 +23,6 @@ Zen of Python!
 21.Explicit is better than implicit.
 22.Simple is better than complex.
 23.
-54.If the implementation is hard to explain, it's a bad idea.
+48.Unless explicitly silenced.
 
 
