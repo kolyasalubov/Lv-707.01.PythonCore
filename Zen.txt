@@ -24,8 +24,8 @@ Zen of Python!
 22.Simple is better than complex.
 23.
 25.Sparse is better than dense.
-33.Although that way may not be obvious at first unless you're Dutch.
+33.Although that way may not be obvious at first unless you're Dutch
 34.Now is better than never.
 42.Flat is better than nested.
+48.Hello world ???Unless explicitly silenced.
 56.Namespaces are one honking great idea -- let's do more of those!
-
