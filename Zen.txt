@@ -22,12 +22,7 @@ Zen of Python!
 20.Beautiful is better than ugly.
 21.Explicit is better than implicit.
 22.Simple is better than complex.
-<<<<<<< HEAD
-23.
-14.Although that way may not be obvious at first unless you're Dutch.
-=======
 23.Complex is better than complicated.
->>>>>>> main
 25.Sparse is better than dense.
 27.Special cases aren't special enough to break the rules.
 29.Errors should never pass silently.
