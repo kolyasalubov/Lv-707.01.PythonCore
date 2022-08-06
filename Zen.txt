@@ -24,6 +24,7 @@ Zen of Python!
 22.Simple is better than complex.
 23.
 25.Sparse is better than dense.
+30.Unless explicitly silenced.
 33.Although that way may not be obvious at first unless you're Dutch
 34.Now is better than never.
 42.Flat is better than nested.
