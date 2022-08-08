@@ -1,26 +1,494 @@
-Zen of Python!
+[33mcommit d56168d2be2ab0af6cb246ed130ffec98a05a153[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Anna Dovha <dovgaanna@gmail.com>
+Date:   Thu Aug 4 17:07:56 2022 +0200
 
-1.
+<<<<<<< HEAD
+    12 line
+
+[33mcommit 162de032d3297f8eee5402a6b6624193c66def3e[m[33m ([m[1;31morigin/ValeriyShokurov[m[33m)[m
+Author: Valeriy <shokurov28@gmail.com>
+Date:   Thu Aug 4 14:02:23 2022 +0300
+
+    added 37 line in Zen file
+
+[33mcommit 06ba34c36537c0d19accda4940e23fda83c68534[m
+Author: Valeriy <shokurov28@gmail.com>
+Date:   Thu Aug 4 13:50:49 2022 +0300
+
+    resolvd confict in 14 and 23 line add added 37 line in Zen file
+
+[33mcommit a0e824ae7fe3347529e412ac91174c4cbe3e7831[m
+Merge: 3c42346 452d73b
+Author: Valeriy <shokurov28@gmail.com>
+Date:   Thu Aug 4 13:42:19 2022 +0300
+
+    added 37 line
+
+[33mcommit 3c42346e4ba2571c1b595da5e01f2ef47a85da3b[m
+Author: Valeriy <shokurov28@gmail.com>
+Date:   Thu Aug 4 13:35:17 2022 +0300
+
+    changed 28 line at 37 in Zen file
+
+[33mcommit 452d73b5f757bcf6db01030ef5fdd1443068fe54[m
+Merge: d3680d2 a8a57c8
+Author: Vasyl Shulevka <shulvasya@gmail.com>
+Date:   Thu Aug 4 12:00:50 2022 +0300
+
+    added 27th line, zero conflicts
+
+[33mcommit a8a57c88cbcfff31262457fe0724b715489ffa7d[m
+Merge: 69d985e 92c1a9e
+Author: Mariia Onyshchenko <arikado969@gmail.com>
+Date:   Thu Aug 4 11:50:43 2022 +0300
+
+    Merge branch 'MariiaOnyshchenko'
+
+[33mcommit 92c1a9e58c27dc3e7bb44ead1a351896bf3e2081[m[33m ([m[1;31morigin/MariiaOnyshchenko[m[33m)[m
+Author: Mariia Onyshchenko <arikado969@gmail.com>
+Date:   Thu Aug 4 11:47:57 2022 +0300
+
+    added 29-th line and deleted 23-th line (because I filled it out previously by mistake)
+
+[33mcommit d3680d29e8fd4ce34c0cb606b2120b8c5d691024[m[33m ([m[1;31morigin/ShulevkaVasyl[m[33m)[m
+Author: Vasyl Shulevka <shulvasya@gmail.com>
+Date:   Thu Aug 4 11:47:02 2022 +0300
+
+    added 27th line, had zero conflicts
+
+[33mcommit 69d985ec12aba5ddaff202e1be425dfe11ceb154[m
+Merge: cf26674 7f7e80d
+Author: Mariia Onyshchenko <arikado969@gmail.com>
+Date:   Thu Aug 4 10:43:16 2022 +0300
+
+    Merge branch 'main' of https://github.com/kolyasalubov/Lv-707.01.PythonCore
+
+[33mcommit cf266747c89bdfbe8ea16d364aa94073f6ffad67[m
+Author: Mariia Onyshchenko <arikado969@gmail.com>
+Date:   Thu Aug 4 10:38:14 2022 +0300
+
+    added 23-th (4-th) line of Zen
+
+[33mcommit 7f7e80d3bc759c2e448ec84641a8a6fca2409b64[m[33m ([m[1;31morigin/DenysYerenkov[m[33m)[m
+Author: denys <dp070999eda1@gmail.com>
+Date:   Thu Aug 4 10:26:53 2022 +0300
+
+    add line 32
+
+[33mcommit e78fd9f1989d6ba4ac9a5df20c4b7bdac164c4b5[m[33m ([m[1;31morigin/TarasPrynda[m[33m)[m
+Author: Taras Prynda <iprynda@ukr.net>
+Date:   Wed Aug 3 22:47:17 2022 +0200
+
+    Added line 31 on 33-d place and replaced line 33 after line 31
+
+[33mcommit 51eb98a2023856ba86cb13d0f95dc1a6dc111b85[m[33m ([m[1;31morigin/YanMuravskyi[m[33m, [m[1;31morigin/KobelKostyantyn[m[33m)[m
+Merge: 9f56452 19b6ff0
+Author: Kostya Kobel <kostp62020@gmail.com>
+Date:   Wed Aug 3 21:10:13 2022 +0300
+
+    Changed line 31 at 56 in Zen file
+
+[33mcommit 9f56452d6a2fda07947c09ab61caee6d7a32fe24[m
+Author: Kostya Kobel <kostp62020@gmail.com>
+Date:   Wed Aug 3 20:57:05 2022 +0300
+
+    Changed line 48 at 56 lines at Zen file
+
+[33mcommit 19b6ff007006f6f77cd9dc49c97a2206b0610d4d[m
+Author: KostyaKobel <68856002+KostyaKobel@users.noreply.github.com>
+Date:   Wed Aug 3 20:52:59 2022 +0300
+
+    Update Zen.txt
+
+[33mcommit 1ca0df8ef3f48ed074ecb45f724e98cac20e6750[m
+Merge: 8e1f57a 5e883e0
+Author: Kostya Kobel <kostp62020@gmail.com>
+Date:   Wed Aug 3 20:17:55 2022 +0300
+
+    Fixed conflict with 42 line and 33 line of Zen file
+
+[33mcommit 5e883e054be1b34ac07e82c42afb9af1aaafa60f[m
+Author: Basil <karbanvasyl@gmail.com>
+Date:   Wed Aug 3 20:02:25 2022 +0300
+
+    added my 42nd line
+
+[33mcommit 6c59f7d8e7ff4c06dd4c7826a9ca5a5fd7f97ce0[m
+Author: Vasyl Shulevka <shulvasya@gmail.com>
+Date:   Wed Aug 3 18:49:47 2022 +0300
+
+    added 27th line, had no conflicts
+
+[33mcommit 8e1f57a4d9f2369cba42f767437cb4295ca78f1b[m
+Author: Kostya Kobel <kostp62020@gmail.com>
+Date:   Wed Aug 3 17:39:48 2022 +0300
+
+    changed order of 33 line and 48 line at the Zen file
+
+[33mcommit 439d14205b4184f7215ee8a00cf13d8fd528f85c[m
+Author: Kostya Kobel <kostp62020@gmail.com>
+Date:   Wed Aug 3 17:36:13 2022 +0300
+
+    Added 33th line at Zen file
+
+[33mcommit ef94786ba93955d977ef0cb3f84cd0e647fde4d0[m
+Merge: 278f25f c710885
+Author: Volodymyr Dzhupyna <vdzhupyna@gmail.com>
+Date:   Wed Aug 3 14:13:06 2022 +0300
+
+    resolve conflict change lines 25, 34 and 48
+
+[33mcommit c710885bf0e5b66fabd36ffba342433c5dac7ab0[m
+Author: Denys Dombrovskyi <dendombrovskiy06081995@gmail.com>
+Date:   Wed Aug 3 13:03:17 2022 +0300
+
+    added 25 line
+
+[33mcommit 609a95b8ca70f07415c6341fbf6c3de87aba69e4[m[33m ([m[1;31morigin/DenysDombrovskyi[m[33m)[m
+Author: Denys Dombrovskyi <dendombrovskiy06081995@gmail.com>
+Date:   Wed Aug 3 12:54:29 2022 +0300
+
+    Added 25 line
+
+[33mcommit 278f25f7053ad8d2253e05d6b9a539e3352d3883[m[33m ([m[1;31morigin/DzhupynaVolodymyr[m[33m)[m
+Author: Volodymyr Dzhupyna <vdzhupyna@gmail.com>
+Date:   Wed Aug 3 12:32:27 2022 +0300
+
+    added 34 line
+
+[33mcommit 7e7c5b290a9168b82c11538f875c4d6b75a6a118[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 10:56:10 2022 +0300
+
+    48
+
+[33mcommit 5db047ac9463845ff551a1c626cc80e56993e923[m
+Author: kolyasalubov <36229492+kolyasalubov@users.noreply.github.com>
+Date:   Wed Aug 3 10:48:52 2022 +0300
+
+    Update Zen.txt
+
+[33mcommit 04a80829eabe655f7e18277f2e940a50e53b8a91[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 10:30:14 2022 +0300
+
+    added new line 58
+
+[33mcommit fe145832a1b4648b896cc8e671bbcffe4b54337b[m
+Merge: 6b2080e 2f6fd64
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 10:23:21 2022 +0300
+
+    Merge branch 'main' into KoliasaLiubov
+
+[33mcommit 6b2080ee9323911f669123c644843db3dfc25b77[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 10:22:16 2022 +0300
+
+    new
+
+[33mcommit 2f6fd64fb478332f875b936354afae3212677fc0[m
+Merge: 5d19ea9 78146cc
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 10:02:51 2022 +0300
+
+    Merge branch 'KoliasaLiubov'
+
+[33mcommit 5d19ea9da27d0420a86f9904de667b7b34bacd34[m
+Merge: d7319a4 5360fa4
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 10:02:30 2022 +0300
+
+    resolve conflict
+
+[33mcommit 78146cca21d12a64a1869a198beb96c32b6592d9[m
+Merge: 6f58810 d7319a4
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 09:57:10 2022 +0300
+
+    Merge branch 'main' into KoliasaLiubov
+
+[33mcommit 5360fa4cd28456aa85d7a3f90934057d4776d839[m
+Author: kolyasalubov <36229492+kolyasalubov@users.noreply.github.com>
+Date:   Wed Aug 3 09:55:17 2022 +0300
+
+    Update Zen.txt
+
+[33mcommit 6f588106d5b27f0d514237ac9597e070061cc1d4[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 09:54:28 2022 +0300
+
+    new changes
+
+[33mcommit d7319a402c3099803977e5bcb7e51edd7389e97c[m
+Merge: 83da7e4 0c1bfc8
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 09:19:45 2022 +0300
+
+    Merge branch 'KoliasaLiubov'
+
+[33mcommit 0c1bfc895e431a118c28c416e815f2a22922f958[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Wed Aug 3 09:17:37 2022 +0300
+
+    change data
+
+[33mcommit 83da7e45da9a76818df89b207d6c5e6dc528eaeb[m
+Author: Anastasia Khudzyk <anastasiakhudzyk@gmail.com>
+Date:   Wed Aug 3 00:11:59 2022 +0300
+
+    21 line "test commit" removed
+
+[33mcommit e709c968cba00f4a418b605176790334bd7c9a9c[m
+Author: Anastasia Khudzyk <anastasiakhudzyk@gmail.com>
+Date:   Tue Aug 2 23:44:33 2022 +0300
+
+    Test commit
+
+[33mcommit 9c2019cf58a228eea676edacee4331484174f3ff[m
+Merge: 4113492 7e7cebc
+Author: Anastasia Khudzyk <anastasiakhudzyk@gmail.com>
+Date:   Tue Aug 2 23:38:07 2022 +0300
+
+    Merge https://github.com/kolyasalubov/Lv-707.01.PythonCore into HEAD
+    
+    resolved conflicts
+
+[33mcommit 4113492c48e2891a33f0b9d0000250a3af2bca53[m
+Author: Anastasia Khudzyk <anastasiakhudzyk@gmail.com>
+Date:   Tue Aug 2 23:16:57 2022 +0300
+
+    48 line changed
+
+[33mcommit 7e7cebc12a9d4aa4095ca33710d2936b421ac4dc[m
+Author: Anastasia Khudzyk <anastasiakhudzyk@gmail.com>
+Date:   Tue Aug 2 22:56:36 2022 +0300
+
+    21 line changed
+
+[33mcommit e15961914495ff090e8e3497efc5e858163e7d57[m
+Merge: dae9af5 871186e
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Tue Aug 2 20:35:38 2022 +0300
+
+    Merge branch 'main' into KoliasaLiubov
+
+[33mcommit dae9af5b1c75a3a41caa218870de9a31e559c949[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Tue Aug 2 20:33:56 2022 +0300
+
+    update
+
+[33mcommit 871186e7d8470fd9a39554e49e7c19d65a10de1c[m
+Merge: 56b32b8 2fd44ca
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Tue Aug 2 20:25:36 2022 +0300
+
+    Merge branch 'main' of https://github.com/kolyasalubov/Lv-707.01.PythonCore
+
+[33mcommit 56b32b8efde4950432f0e2ae9888f48414c470b8[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Tue Aug 2 20:21:37 2022 +0300
+
+    added 48 line
+
+[33mcommit 39ea854a6584e6ff0ea65569954ec9bf2a5b8767[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Tue Aug 2 20:16:23 2022 +0300
+
+    added 47 line
+
+[33mcommit 2fd44ca4c3f4b946549dedafd5a723b9c9a9f8ea[m
+Author: Basil <karbanvasyl@gmail.com>
+Date:   Tue Aug 2 18:00:18 2022 +0300
+
+    hw_completed
+
+[33mcommit 69f7eee711c45cb95fa4a19894223443e7c047b6[m
+Author: naprotiv <naprotivprazdnik@gmail.com>
+Date:   Tue Aug 2 15:00:55 2022 +0300
+
+    created new 18th line
+
+[33mcommit abb67000e5ba65098d4bc564cbdf0bb6f07eb54a[m
+Author: Valeriy <shokurov28@gmail.com>
+Date:   Tue Aug 2 14:28:04 2022 +0300
+
+    addet 14th line for Zen.txt
+
+[33mcommit 9d19ee526bd19b569dfab719ff078097981d48a2[m
+Author: Vasyl Shulevka <shulvasya@gmail.com>
+Date:   Tue Aug 2 12:10:59 2022 +0300
+
+    added 4th line for zen.txt
+
+[33mcommit 3ffcca1ba590aef485b9d0ee4103653305104e4e[m[33m ([m[1;31morigin/add_zen_of_rule[m[33m)[m
+Author: Iryna <galandzovskaya91@gmail.com>
+Date:   Mon Aug 1 15:04:01 2022 +0300
+
+     added twentyth line Zen of Python
+
+[33mcommit 9d35ffb61d06b2708b705087d594969688186b22[m
+Author: Mariia Onyshchenko <arikado969@gmail.com>
+Date:   Mon Aug 1 13:24:40 2022 +0300
+
+    added 6-th line of Zen
+
+[33mcommit a6dd712d005f97d5ca073dec6eec60df5b6eaba0[m
+Author: Yan Muravskyi <yan.muravskyi@outlook.com>
+Date:   Sun Jul 31 13:50:47 2022 +0300
+
+    added Zen of Python principle #7
+
+[33mcommit ee53ccbed4ba3a21bb7ed9aef97c3589992e73b3[m
+Author: Lesyk <lesikmail82@gmail.com>
+Date:   Sun Jul 31 10:43:45 2022 +0300
+
+    Incorrect term entered
+
+[33mcommit 822df71d0964a32a84b34cd6fafaa2d5ac06311a[m
+Author: Lesyk <lesikmail82@gmail.com>
+Date:   Sat Jul 30 19:42:28 2022 +0300
+
+    new line 1
+
+[33mcommit e8126abdab7bcfec239f17e8f58416f60ff675d0[m
+Author: Volodymyr Dzhupyna <vdzhupyna@gmail.com>
+Date:   Fri Jul 29 16:32:45 2022 +0300
+
+    added 11 line
+
+[33mcommit 6465fb04ccd67bf32fc80157b595f7d4b1d8d3b1[m
+Author: Denys Dombrovskyi <dendombrovskiy06081995@gmail.com>
+Date:   Fri Jul 29 07:56:32 2022 +0300
+
+    create 2 line
+
+[33mcommit b3723c84359161bfead751f75ee78e34ee950d9b[m
+Author: Oleg Mykhaylovskyy <ttest261@gmail.com>
+Date:   Thu Jul 28 21:48:42 2022 +0300
+
+    add 22 row
+
+[33mcommit ad64117d412fa9cd8e8edca630c283704a81af5b[m
+Merge: 0c15795 4f4948e
+Author: Kostya Kobel <kostp62020@gmail.com>
+Date:   Thu Jul 28 21:11:22 2022 +0300
+
+    Merge branch 'main' of https://github.com/kolyasalubov/Lv-707.01.PythonCore into main
+
+[33mcommit 0c15795916f00c38db7c0ae5820a8a42602edacd[m
+Author: Kostya Kobel <kostp62020@gmail.com>
+Date:   Thu Jul 28 21:09:15 2022 +0300
+
+    Changed the tenth line in the Zen file
+
+[33mcommit 4f4948e1fd10b20fa792361eafedfc41af2a8489[m
+Merge: 921f9bd bf0d485
+Author: Aleksandr Varodin <olisgroup21@gmail.com>
+Date:   Thu Jul 28 20:54:38 2022 +0300
+
+    Merge branch 'main' of https://github.com/kolyasalubov/Lv-707.01.PythonCore into main
+
+[33mcommit 921f9bda4495b577074d5cfadfea95d86e25edea[m
+Merge: bfaa7e5 8273d86
+Author: Aleksandr Varodin <olisgroup21@gmail.com>
+Date:   Thu Jul 28 20:51:10 2022 +0300
+
+    Merge branch 'main' of https://github.com/kolyasalubov/Lv-707.01.PythonCore into main
+
+[33mcommit bf0d485f669602b04e113c0ad86bc3424a34fcdf[m
+Merge: 90a6cc3 8273d86
+Author: Yulia Mazurenko <alekstraza0@gmail.com>
+Date:   Thu Jul 28 20:48:20 2022 +0300
+
+    Merge branch 'main' of https://github.com/kolyasalubov/Lv-707.01.PythonCore
+    adding line 5
+
+[33mcommit 90a6cc37547452d04a9901dc32e815a19152a2a4[m
+Author: Yulia Mazurenko <alekstraza0@gmail.com>
+Date:   Thu Jul 28 20:47:43 2022 +0300
+
+    adding line 5
+
+[33mcommit 8273d86f28d1787b46a251931d93f6fd06f21c12[m
+Author: denys <dp070999eda1@gmail.com>
+Date:   Thu Jul 28 20:37:46 2022 +0300
+
+    add 9 lains
+
+[33mcommit bfaa7e5e652f00d0bfa78082c2b5a683a5c38de2[m
+Merge: e253ce6 7e2ff5f
+Author: Aleksandr Varodin <olisgroup21@gmail.com>
+Date:   Thu Jul 28 20:30:08 2022 +0300
+
+    Merge branch 'main' of https://github.com/kolyasalubov/Lv-707.01.PythonCore into main
+
+[33mcommit e253ce6939e3d5e98e37b28a697e07b6c2c9b609[m
+Author: root <root@Laptop4ik.localdomain>
+Date:   Thu Jul 28 20:27:30 2022 +0300
+
+    add 13 line to Zen.txt
+
+[33mcommit 7e2ff5fe97b4079b0143bee2856db322af9330c1[m
+Author: Taras <iprynda@ukr.net>
+Date:   Thu Jul 28 19:26:50 2022 +0200
+
+    Add Zen of Pythin №8 from Prynda Taras
+
+[33mcommit 963884ce417e16f10807a328c19e64e529ab6663[m
+Author: kolyasalubov <36229492+kolyasalubov@users.noreply.github.com>
+Date:   Thu Jul 28 20:09:06 2022 +0300
+
+    Update Zen.txt
+
+[33mcommit 8afceb1c4414902bae661a3ecb1a3c9fd6eb8681[m
+Author: Liubov Koliasa <kolyasa.lubov@gmail.com>
+Date:   Thu Jul 28 20:02:37 2022 +0300
+
+    create new file Zen/txt
+
+[33mcommit d94a938b2a3c4eba7980bd8e7f76d3f5cc734fa4[m
+Author: kolyasalubov <36229492+kolyasalubov@users.noreply.github.com>
+Date:   Thu Jul 28 19:53:45 2022 +0300
+
+    Initial commit
+=======
+1.Beautiful is better than ugly.
 2.Explicit is better than implicit.
 3.
-4.
+4.In the face of ambiguity, refuse the temptation to guess.
 5. Flat is better than nested.
-6.
-7.
-8.Special cases aren't special enough to break the rules.
+6.Sparse is better than dense.
+7.Readability counts.
+8.
 9.Although practicality beats purity.
 10.Errors should never pass silently.
 11.Unless explicitly silenced.
-12.
-13.Beautiful is better than ugly.
-14.
+12.In the face of ambiguity, refuse the temptation to guess.
+13.There should be one-- and preferably only one --obvious way to do it.
+14.Although that way may not be obvious at first unless you're Dutch.
 15.
 16.
 17.
-18.
-19.
-20.
-21.
+18.If the implementation is easy to explain, it may be a good idea.
+19.Namespaces are one honking great idea – let's do more of those!
+20.Beautiful is better than ugly.
+21.Explicit is better than implicit.
 22.Simple is better than complex.
-23.
+23.Complex is better than complicated.
+24.Flat is better than nested.
+25.Sparse is better than dense.
+27.Special cases aren't special enough to break the rules.
+29.Errors should never pass silently.
+30.Unless explicitly silenced.
+31.In the face of ambiguity, refuse the temptation to guess.
+32.There should be one-- and preferably only one --obvious way to do it.
+33.Although that way may not be obvious at first unless you're Dutch
+34.Now is better than never.
+37.If the implementation is easy to explain, it may be a good idea.
+42.Flat is better than nested.
 45.Special cases aren't special enough to break the rules.
+48.Hello world ???Unless explicitly silenced.
+56.Namespaces are one honking great idea -- let's do more of those!
+
