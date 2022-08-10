@@ -1,0 +1,12 @@
+a = 10
+b = 20
+summation = a+b
+subtraction = a - b
+multiplication = a*b
+division = a/b
+exponentiation = a**b
+print(f'sum of the variables is {summation}. ', end="")
+print(f' the difference of subtraction is: {subtraction}. ', end="")
+print(f' the product of the variables is: {multiplication}. ', end="")
+print(f' the quotient of the division is: {division}. ', end="")
+print(f' the {b}th power of {a} is: {exponentiation}. ', end='')
