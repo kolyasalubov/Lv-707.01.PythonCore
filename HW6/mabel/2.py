@@ -6,7 +6,7 @@ c = []
 for i in range(1, 10):
     if i %3 != 0 and i %2 != 0 :
         a.append(i)
-    elif i %3 == 0: 
+    elif i %3 == 0 and i %2 != 0: 
         b.append(i)
     elif i %2 == 0:
         c.append(i)
