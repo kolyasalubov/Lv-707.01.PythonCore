@@ -1,6 +1,4 @@
-enter_login: str = input("Please enter users login:")
-while enter_login != "First":
+while (str_login := input("Please enter users login:")) != "First":
     print("Password wrong! Try again!")
-    enter_login: str = input("Please enter users login:")
 else:
-    print(f"Hello {enter_login}-user. How are you?")
+    print(f"Hello {str_login}-user. How are you?")
