@@ -11,4 +11,4 @@ def calculate_symbol(str_in: str) -> dict:
 
 
 str_ = input("Enter string:")
-print(f"Result of: {calculate_symbol(str_)}")
+print(f"Result of working: {calculate_symbol(str_)}")

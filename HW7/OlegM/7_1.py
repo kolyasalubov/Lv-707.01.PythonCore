@@ -8,6 +8,6 @@ def find_max(a: int, b: int) -> int:
     return a if a > b else b
 
 
-a, b = [int(num) for num in input("Enter two integer numbers use space between numbers:").split()][:2]
-print(find_max(a, b))
+a = (int(num) for num in input("Enter two integer numbers use space between numbers:").split())
+print(find_max(*a))
 
