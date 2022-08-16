@@ -9,7 +9,7 @@ for i in range(1, n):
         fib = fib1 + fib2
         fib1 = fib2
         fib2 = fib
-        print("fib numbers are",fib, end = ' ')
+        print(fib, end = ' ')
 else:
     if n == 0:
         print("fib number is 0")

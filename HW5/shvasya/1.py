@@ -1,5 +1,5 @@
 for i in range(1,11):
-    if i % 3 == 0:
+    if i % 3 == 0 and i != 6:
         print(i, end = ' ')
 
 for m in range(1,11):
