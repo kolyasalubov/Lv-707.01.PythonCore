@@ -23,3 +23,5 @@ Zen of Python!
 21.
 22.Simple is better than complex.
 23.
+48.Unless explicitly silenced.
+
