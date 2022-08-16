@@ -4,9 +4,8 @@ def calculate_symbol(str_in: str) -> dict:
     :param str_in: enter string
     :return: dict with count of symbols
     '''
-    d = dict()
-    for symbol in str_in:
-        d[symbol] = d.get(symbol, 0) + 1
+    d = {}
+    d = {str(symbol): str_in.count(symbol) for symbol in str_in if symbol not in d}
     return d
 
 
