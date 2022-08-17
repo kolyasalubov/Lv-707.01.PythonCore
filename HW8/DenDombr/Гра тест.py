@@ -1,5 +1,5 @@
 import random
-a=random.randint(1,10)
+a=random.randint(1,100)
 print("Компютер задумав число. Відгадай його ")
 k=1
 n=int(input("Введи власне число "))
