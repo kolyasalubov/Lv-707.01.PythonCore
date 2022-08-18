@@ -1,18 +1,22 @@
-def is_incl_letter(passwd: str) -> bool:
+import string
+
+
+def is_incl_letter_low(passwd: str) -> bool:
     # At least 1 letter between [a-z] and 1 letter between [A-Z].
-    flag_low = False
-    flag_upp = False
-    for i in passwd:
-        if i.isalpha() and i.islower():
-            flag_low = True
-        if i.isalpha() and not i.islower():
-            flag_upp = True
-        if flag_low and flag_upp:
-            return True
+    if any([i in string.ascii_uppercase for i in passwd]):
+        return True
     else:
-        print(f"Password need include at least 1 letter between [a-z] and 1 letter between [A-Z]")
+        print(f"Password need include at least 1 letter between [A-Z]")
         return False
 
+
+def is_incl_letter_upper(passwd: str) -> bool:
+    # At least 1 letter between [a-z] and 1 letter between [A-Z].
+    if any([i in string.ascii_lowercase for i in passwd]):
+        return True
+    else:
+        print(f"Password need include at least 1 letter between [a-z]")
+        return False
 
 def is_incl_digit(passwd: str) -> bool:
     # At least 1 number between [0-9].
@@ -25,9 +29,8 @@ def is_incl_digit(passwd: str) -> bool:
 
 def is_incl_uniq(passwd: str) -> bool:
     # At least 1 character from [$ # @]
-    for i in ['$', '#', '@']:
-        if i in passwd:
-            return True
+    if any([i in passwd for i in ['$', '#', '@']]):
+        return True
     else:
         print(f"Password need include at least 1 character from [$ # @]")
         return False
@@ -42,7 +45,7 @@ def check_lenght(passwd: str) -> bool:
         return False
 
 
-LIST_OF_FUNCTION = (is_incl_letter, is_incl_digit, is_incl_uniq, check_lenght)
+LIST_OF_FUNCTION = (is_incl_letter_upper, is_incl_letter_low, is_incl_digit, is_incl_uniq, check_lenght)
 # List of check-functions
 
 
