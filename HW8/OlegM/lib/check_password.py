@@ -3,7 +3,7 @@ import string
 
 def is_incl_letter_low(passwd: str) -> bool:
     # At least 1 letter between [a-z] and 1 letter between [A-Z].
-    if any([i in string.ascii_uppercase for i in passwd]):
+    if any([i in string.ascii_uppercase for i in set(passwd)]):
         return True
     else:
         print(f"Password need include at least 1 letter between [A-Z]")
@@ -12,15 +12,16 @@ def is_incl_letter_low(passwd: str) -> bool:
 
 def is_incl_letter_upper(passwd: str) -> bool:
     # At least 1 letter between [a-z] and 1 letter between [A-Z].
-    if any([i in string.ascii_lowercase for i in passwd]):
+    if any([i in string.ascii_lowercase for i in set(passwd)]):
         return True
     else:
         print(f"Password need include at least 1 letter between [a-z]")
         return False
 
+
 def is_incl_digit(passwd: str) -> bool:
     # At least 1 number between [0-9].
-    if any([str(num) in passwd for num in range(10)]):
+    if any([str(num) in set(passwd) for num in range(10)]):
         return True
     else:
         print(f"Password need include at least 1 number between [0-9]")
@@ -29,7 +30,7 @@ def is_incl_digit(passwd: str) -> bool:
 
 def is_incl_uniq(passwd: str) -> bool:
     # At least 1 character from [$ # @]
-    if any([i in passwd for i in ['$', '#', '@']]):
+    if any([i in set(passwd) for i in ['$', '#', '@']]):
         return True
     else:
         print(f"Password need include at least 1 character from [$ # @]")
