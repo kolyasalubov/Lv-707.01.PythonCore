@@ -7,4 +7,4 @@ def string(str1):
         else:
             dict[n] = 1
     return dict
-print(string('denis'))
+print(string('dennnnnnnnis'))
