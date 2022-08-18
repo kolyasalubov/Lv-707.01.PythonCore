@@ -43,5 +43,14 @@ def check_lenght(passwd: str) -> bool:
         return False
 
 
-def correct_passwd(passwd: str) -> bool:
-    return all([is_incl_letter(passwd), is_incl_digit(passwd), is_incl_uniq(passwd), check_lenght(passwd)])
+LIST_OF_FUNCTION = (is_incl_letter, is_incl_digit, is_incl_uniq, check_lenght)
+# List of check-functions
+
+
+def correct_passwd(passwd: str, lst_of_function: list) -> bool:
+    '''
+    :param lst_of_function: list of check-function
+    :param passwd:  password
+    :return: result of check-functions
+    '''
+    return all([func(passwd) for func in lst_of_function])
