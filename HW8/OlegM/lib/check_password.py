@@ -16,9 +16,8 @@ def is_incl_letter(passwd: str) -> bool:
 
 def is_incl_digit(passwd: str) -> bool:
     # At least 1 number between [0-9].
-    for i in passwd:
-        if i.isdigit():
-            return True
+    if any([str(num) in passwd for num in range(10)]):
+        return True
     else:
         print(f"Password need include at least 1 number between [0-9]")
         return False
@@ -26,8 +25,8 @@ def is_incl_digit(passwd: str) -> bool:
 
 def is_incl_uniq(passwd: str) -> bool:
     # At least 1 character from [$ # @]
-    for i in passwd:
-        if i in ['$', '#', '@']:
+    for i in ['$', '#', '@']:
+        if i in passwd:
             return True
     else:
         print(f"Password need include at least 1 character from [$ # @]")
