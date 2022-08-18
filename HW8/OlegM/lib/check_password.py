@@ -1,27 +1,31 @@
 import string
+import re
 
 
 def is_incl_letter_low(passwd: str) -> bool:
     # At least 1 letter between [a-z] and 1 letter between [A-Z].
-    if any([i in string.ascii_uppercase for i in passwd]):
-        return True
-    else:
-        print(f"Password need include at least 1 letter between [A-Z]")
-        return False
-
-
-def is_incl_letter_upper(passwd: str) -> bool:
-    # At least 1 letter between [a-z] and 1 letter between [A-Z].
-    if any([i in string.ascii_lowercase for i in passwd]):
+    # if any([i in string.ascii_uppercase for i in passwd]):
+    if len(re.findall('[a-z]', passwd)) != 0:
         return True
     else:
         print(f"Password need include at least 1 letter between [a-z]")
         return False
 
 
+def is_incl_letter_upper(passwd: str) -> bool:
+    # At least 1 letter between [A-Z] and 1 letter between [A-Z].
+    # if any([i in string.ascii_uppercase for i in passwd]):
+    if len(re.findall('[A-Z]', passwd)) != 0:
+        return True
+    else:
+        print(f"Password need include at least 1 letter between [A-Z]")
+        return False
+
+
 def is_incl_digit(passwd: str) -> bool:
     # At least 1 number between [0-9].
-    if any([str(num) in passwd for num in range(10)]):
+    #if any([str(num) in passwd for num in range(10)]):
+    if len(re.findall('[\d]', passwd)) != 0:
         return True
     else:
         print(f"Password need include at least 1 number between [0-9]")
@@ -30,7 +34,8 @@ def is_incl_digit(passwd: str) -> bool:
 
 def is_incl_uniq(passwd: str) -> bool:
     # At least 1 character from [$ # @]
-    if any([i in passwd for i in ['$', '#', '@']]):
+    # if any([i in passwd for i in ['$', '#', '@']]):
+    if len(re.findall('[$, @, #]', passwd)) != 0:
         return True
     else:
         print(f"Password need include at least 1 character from [$ # @]")
@@ -47,6 +52,8 @@ def check_lenght(passwd: str) -> bool:
 
 
 LIST_OF_FUNCTION = (is_incl_letter_upper, is_incl_letter_low, is_incl_digit, is_incl_uniq, check_lenght)
+
+
 # List of check-functions
 
 
@@ -56,4 +63,4 @@ def correct_passwd(passwd: str, lst_of_function: list) -> bool:
     :param passwd:  password
     :return: result of check-functions
     '''
-    return all([func(set(passwd)) for func in lst_of_function])
+    return all([func(passwd) for func in lst_of_function])
