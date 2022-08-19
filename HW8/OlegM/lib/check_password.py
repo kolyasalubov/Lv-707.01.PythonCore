@@ -24,7 +24,7 @@ def is_incl_letter_upper(passwd: str) -> bool:
 
 def is_incl_digit(passwd: str) -> bool:
     # At least 1 number between [0-9].
-    #if any([str(num) in passwd for num in range(10)]):
+    # if any([str(num) in passwd for num in range(10)]):
     if len(re.findall('[\d]', passwd)) != 0:
         return True
     else:
@@ -64,3 +64,16 @@ def correct_passwd(passwd: str, lst_of_function: list) -> bool:
     :return: result of check-functions
     '''
     return all([func(passwd) for func in lst_of_function])
+
+
+def correct_passwd_short(passwd: str, lst_of_function: list) -> bool:
+    '''
+    break after fierst False result
+    :param lst_of_function: list of check-function
+    :param passwd:  password
+    :return: result of check-functions
+    '''
+    for func in lst_of_function:
+        if not func(passwd):
+            return False
+    return True
