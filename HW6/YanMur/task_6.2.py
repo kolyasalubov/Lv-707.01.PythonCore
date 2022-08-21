@@ -1,4 +1,4 @@
-# Task 2
+# Task 6.2
 
 username = "default"
 

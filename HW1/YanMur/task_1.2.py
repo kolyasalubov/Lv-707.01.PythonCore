@@ -1,4 +1,4 @@
-# Task 2
+# Task 1.2
 
 x = float(input("Input x: \n"))
 y = float(input("Input y: \n"))

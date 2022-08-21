@@ -1,4 +1,4 @@
-# Task 2
+# Task 5.2
 number = int(input("Input fibonacci value: "))
 n = 1
 fibonacci = [0, 1]

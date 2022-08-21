@@ -1,4 +1,4 @@
-# Task 1
+# Task 4.1
 number = int(input("Enter factorial number: "))
 
 counter = 1

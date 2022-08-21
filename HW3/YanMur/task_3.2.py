@@ -1,4 +1,4 @@
-# Task 2
+# Task 3.2
 
 number = input("Enter four digit number:\n")
 

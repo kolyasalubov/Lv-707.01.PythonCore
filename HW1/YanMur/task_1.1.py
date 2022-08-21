@@ -1,4 +1,4 @@
-# Task 1
+# Task 1.1
 
 first_name = input("Whats your name? \n")
 age = input("How old are you? \n")
