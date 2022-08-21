@@ -1,12 +1,7 @@
+input_number = int(input("Enter a number:"))
+fact = 1
+i = 0
 
-for m in range(1,11):
-    if m % 2 == 0:
-        print(m, end = ' ')
-
-for i in range(1,11):
-    if i % 3 == 0 and i != 6:
-        print(i, end = ' ')
-
-for n in range(1,11):
-    if n % 3 != 0 and n % 2 != 0:
-        print(n, end = ' ')  
+for i in range(1,input_number + 1):
+    fact = fact*i 
+print(f"factorial {input_number} = 1" if fact == 0 else f"factorial {input_number} = {fact}")
