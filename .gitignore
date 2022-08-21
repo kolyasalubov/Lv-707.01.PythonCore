@@ -308,6 +308,12 @@ Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
 # Dump file
 *.stackdump
 
