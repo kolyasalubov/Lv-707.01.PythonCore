@@ -1,12 +1,23 @@
-import random
-random_number = random.randint(1, 100)
-user_input = int(input("Enter your number : "))
-while user_input != random_number:
-    if user_input > random_number:
-        print("Your number is bigger than a random number, you'll get lucky next time")
-    elif user_input < random_number:
-        print("Your number is smaller than a random number, you'll get lucky next time")
-    user_input = int(input("Please try again "))    
-else:
-    print("Good job")   
-    
+import re
+
+password = input("Enter a password: ")
+
+while True:
+    if not re.findall("[a-z]", password):
+        print("password is invalid.TRY AGAIN MATCHING ALL THE REQUIREMENTS")
+        password = input("Enter a password: ")
+    if not re.findall("[0-9]", password):
+        print("password is invalid.TRY AGAIN MATCHING ALL THE REQUIREMENTS")
+        password = input("Enter a password: ")
+    if not re.findall("[A-Z]", password):
+        print("password is invalid.TRY AGAIN MATCHING ALL THE REQUIREMENTS")
+        password = input("Enter a password: ")
+    if not 6 < len(password) < 16:
+        print("password is invalid.TRY AGAIN MATCHING ALL THE REQUIREMENTS")
+        password = input("Enter a password: ")
+    if not re.findall("[$#@]", password):
+        print("password is invalid.TRY AGAIN MATCHING ALL THE REQUIREMENTS")
+        password = input("Enter a password: ")
+    else:
+        print("Touche!Correct password")
+        break        
