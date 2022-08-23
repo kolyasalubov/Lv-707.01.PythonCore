@@ -1,7 +1,8 @@
 from pyowm import OWM
+from configuration import API_KEY
 
 
-owm = OWM('1899bb866c5a3df4d30d0e559621e8dd')  # You MUST provide a valid API key
+owm = OWM(API_KEY)  # You MUST provide a valid API key
 
 # Search for current weather in London (Great Britain)
 manager_of_weather = owm.weather_manager()
