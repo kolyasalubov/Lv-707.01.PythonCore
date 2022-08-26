@@ -1,6 +1,8 @@
 def count(hello):
-    """This function calculates the number of
-    characters in a given string"""
+    """
+    This function calculates the number of
+    characters in a given string
+    """
     list = [i for i in hello]
     dict = {}
     for item in list:
