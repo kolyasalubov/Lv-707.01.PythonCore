@@ -5,12 +5,12 @@ class Human:
 
 class Man(Human):
     def __init__(self, name='Adam'):
-        super(Man, self).__init__(name)
+        super().__init__(name)
 
 
 class Woman(Human):
     def __init__(self, name='Eva'):
-        super(Woman, self).__init__(name)
+        super().__init__(name)
 
 
 def god() -> list:
