@@ -1,4 +1,4 @@
-import pprint
+from pprint import pprint
 import random
 
 
@@ -13,8 +13,6 @@ class Employee():
         return super().__new__(cls)
 
     def __init__(self, name='No_name', salary = 0):
-        self._name = ''
-        self._salary = 0
         self._name = name
         self._salary = salary
 
@@ -37,8 +35,8 @@ class Employee():
     def salary(self):
         return self._salary
 
-    @name.setter
-    def name(self, salary):
+    @salary.setter
+    def salary(self, salary):
         if isinstance(salary, (int, float)) and salary >= 0:
             self._salary = salary
 
@@ -51,10 +49,10 @@ class Employee():
         print("\n---------class information-------")
         print(f"Наслідуваня класів: {cls.mro()}")
         print(f"Назва класу: {cls.__name__}")
-        pprint.pprint(f"Простір імен{cls.__dict__}")
+        print("Простір імен класу:")
+        pprint(cls.__dict__)
         print(f"Назва модулю: {cls.__module__}")
         print(f"Опис класу: {cls.__doc__}")
-
 
 
 

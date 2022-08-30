@@ -15,7 +15,7 @@ class Human:
 
     @classmethod
     def info_Homosapiens(cls):
-        print(f"I have good news - are you {cls._type}")
+        print(f"I have good news - you are {cls._type}")
 
     @staticmethod
     def info_about_Homosapiens():
