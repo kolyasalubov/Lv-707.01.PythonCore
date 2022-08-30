@@ -6,10 +6,9 @@ class Human:
 
     def __setattr__(self, key, value):
         if key == 'name':
-            print(f"Hello human - {value}")
-
             object = super().__setattr__(key, value)
 
+            print(f"Hello human - {value}")
             self.info_Homosapiens()
             self.info_about_Homosapiens()
             return object
