@@ -21,9 +21,9 @@ set_rules_of_Zen = '''
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 '''
-find_better_in_string = set_rules_of_Zen.find('better')
-find_never_in_string = set_rules_of_Zen.find('never')
-find_is_in_string = set_rules_of_Zen.find('is')
+find_better_in_string = set_rules_of_Zen.count('better')
+find_never_in_string = set_rules_of_Zen.count('never')
+find_is_in_string = set_rules_of_Zen.count('is')
 
 print(f"Count of better are: {find_better_in_string}")
 print(f"Count of never are: {find_never_in_string}")
