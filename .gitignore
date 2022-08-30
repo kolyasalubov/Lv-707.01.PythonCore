@@ -1,3 +1,7 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode,windows
+
 # Created by https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,windows,visualstudiocode,pycharm
 
@@ -113,6 +117,7 @@ fabric.properties
 # Azure Toolkit for IntelliJ plugin
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
+
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -308,11 +313,14 @@ Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
+
+
 ### macOS ###
 # General
 .DS_Store
 .AppleDouble
 .LSOverride
+
 
 # Dump file
 *.stackdump
@@ -333,4 +341,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+
+# End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,windows
+
 # End of https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode,pycharm
+
