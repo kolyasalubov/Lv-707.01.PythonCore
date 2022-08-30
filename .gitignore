@@ -1,6 +1,8 @@
 
+
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode,windows
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,windows,visualstudiocode,pycharm
@@ -314,7 +316,6 @@ ehthumbs.db
 ehthumbs_vista.db
 
 
-
 ### macOS ###
 # General
 .DS_Store
@@ -342,7 +343,11 @@ $RECYCLE.BIN/
 *.lnk
 
 
+# End of https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode,pycharm
+
+
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,windows
 
 # End of https://www.toptal.com/developers/gitignore/api/python,windows,visualstudiocode,pycharm
+
 
