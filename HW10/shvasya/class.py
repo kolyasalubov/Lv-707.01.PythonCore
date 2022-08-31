@@ -3,7 +3,7 @@ class Human:
         self.name = name
 
     def hello(self):
-        return "Hello user {self.name}"   
+        return f"Hello user {self.name}"   
 
     @classmethod
     def methodClass(cls):
@@ -12,3 +12,10 @@ class Human:
     @staticmethod
     def any_message():
         return "I hope I can become a coder"    
+
+s = Human("Vasya")
+s.hello
+s.any_message
+print(s.hello())
+print(s.any_message())
+print(Human.methodClass())
