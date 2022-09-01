@@ -26,11 +26,10 @@ class Triangle(Polygon):
         super().__init__(3)
 
     def checkSides(self):
-        for item in range(self.n):
-            print(f"Side {item + 1} is {self.sides[item]}")
-            if (((self.sides[0] + self.sides[1]) < self.sides[2])
-                or ((self.sides[0] + self.sides[2]) < self.sides[1])
-                or ((self.sides[1] + self.sides[2]) < self.sides[0])):
+        super().dispSides()
+        if (((self.sides[0] + self.sides[1]) < self.sides[2])
+            or ((self.sides[0] + self.sides[2]) < self.sides[1])
+            or ((self.sides[1] + self.sides[2]) < self.sides[0])):
                 raise CustomException("The triangle does't exist: the sum of the two sides must be greater than the third")
 
     def findArea(self):
