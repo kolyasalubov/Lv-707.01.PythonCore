@@ -1,6 +1,0 @@
-name_of_customer = str(input("What is your name? "))
-age_of_customer = int(input("How old are you? "))
-location_of_customer = str(input("Where do you live? "))
-print("Hello, ",name_of_customer, ",nice to meet you at our web site - EXPLORE IT at full")
-print("Your age does not matter, you will always be young an beautiful, it is just a number: ", age_of_customer)
-print(location_of_customer,"That is a marvellous city, everybody wants to live there!")

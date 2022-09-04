@@ -1,6 +1,0 @@
-c = str(input('What is your name? '))
-b = float(input('How old are you? '))
-x = str(input('Where do you live? '))
-print('“Hello,', c)
-print('Your age is', b)
-print('You live in' , x)
