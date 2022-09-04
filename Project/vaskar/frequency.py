@@ -10,7 +10,7 @@ latitudes = [geolocator.geocode(a).latitude for a in loads]
 frequency = {}
 for l, a, b in zip(loads, latitudes, longitudes):
     for g,f in zip(latitudes, longitudes):
-        if distance.distance((a,b),(g,f)).miles <1000:
+        if distance.distance((a,b),(g,f)).miles <50:
             if l in frequency:
                 frequency[l] +=1
             else:
