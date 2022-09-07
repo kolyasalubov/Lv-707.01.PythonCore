@@ -1,4 +1,4 @@
-class UserException(Exception):
+class UserException(BaseException):
     def __init__(self, *args):
         self.message = args[0] if args else "Error!"
 
@@ -18,7 +18,7 @@ class Age:
     def verify(age):
         try:
             age = int(age)
-        except Exception:
+        except ValueError:
             raise UserException('Your enter non integer value!')
         if int(age) <= 0:
             raise UserException('Your enter negative value or 0!')
@@ -26,7 +26,7 @@ class Age:
             return True
 
 
-age_in = input()
+age_in = input('Enter age, please:')
 try:
     age = Age(age_in)
     print(age)
