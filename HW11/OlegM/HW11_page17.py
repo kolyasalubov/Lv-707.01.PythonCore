@@ -26,9 +26,10 @@ class Age:
             return True
 
 
-age_in = input('Enter age, please:')
-try:
-    age = Age(age_in)
-    print(age)
-except UserException as e:
-    print(e)
+while (age_in := input('Enter your age or "0" for exit:')) != '0':
+    try:
+        age = Age(age_in)
+        print(age)
+    except UserException as e:
+        print(e)
+
