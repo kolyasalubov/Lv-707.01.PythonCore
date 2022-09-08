@@ -99,7 +99,7 @@ def get_tomato_cucumber_recipe(message):
         send_value = bot.send_message(
                         message.chat.id,
                         "Введіть в поле 'Повідомлення' отриману "
-                        "кількість рідини цифрою \U0001F447",
+                        "кількість рідини цифрою в літрах\U0001F447",
                         reply_markup=markup
                     )
         bot.register_next_step_handler(send_value, calculate_cucmber_marinade)
@@ -118,7 +118,7 @@ def get_tomato_cucumber_recipe(message):
         send_value = bot.send_message(
                         message.chat.id,
                         "Введіть в поле 'Повідомлення' отриману "
-                        "кількість рідини цифрою \U0001F447",
+                        "кількість рідини цифрою в літрах\U0001F447",
                         reply_markup=markup
                     )
         bot.register_next_step_handler(send_value, calculate_tomato_marinade)
