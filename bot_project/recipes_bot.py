@@ -95,6 +95,14 @@ def get_tomato_cucumber_recipe(message):
             "- залийте всі банки окропом та вирахуйте загальну кількість рідини",
             parse_mode="HTML"   
         )
+        markup = telebot.types.ForceReply()
+        send_value = bot.send_message(
+                        message.chat.id,
+                        "Введіть в поле 'Повідомлення' отриману "
+                        "кількість рідини цифрою \U0001F447",
+                        reply_markup=markup
+                    )
+        bot.register_next_step_handler(send_value, calculate_cucmber_marinade)
 
     if message.text == "Розрахунок маринаду для помідорів":
         bot.send_message(
@@ -106,18 +114,6 @@ def get_tomato_cucumber_recipe(message):
             "- залийте всі банки окропом та вирахуйте загальну кількість рідини",
             parse_mode="HTML"   
         )
-
-    if message.text == "Розрахунок маринаду для огірків":
-        markup = telebot.types.ForceReply()
-        send_value = bot.send_message(
-                        message.chat.id,
-                        "Введіть в поле 'Повідомлення' отриману "
-                        "кількість рідини цифрою \U0001F447",
-                        reply_markup=markup
-                    )
-        bot.register_next_step_handler(send_value, calculate_cucmber_marinade)
-
-    if message.text == "Розрахунок маринаду для помідорів":
         markup = telebot.types.ForceReply()
         send_value = bot.send_message(
                         message.chat.id,
