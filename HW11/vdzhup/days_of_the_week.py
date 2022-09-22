@@ -1,7 +1,7 @@
 def get_day(days: dict) -> str:
     user_day = input("Enter your number of day: ")
     try:
-        return days_week[int(user_day)]
+        return days[int(user_day)]
     except KeyError:
         return "Error: There are only 7 days in a week."
     except ValueError:
